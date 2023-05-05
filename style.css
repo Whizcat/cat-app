@@ -4,7 +4,7 @@
     background-color: aqua;
   }
 
-  .cat {
+  .cats {
     background-color: palevioletred;
     margin: 0.5em;
     padding: 1em;
@@ -12,9 +12,8 @@
     border: 1px solid purple;
     flex: 1;
     width: 300px;
-    height: 244
-    
-  }
+    height: 244;
+      }
 
   @media (min-width : 960px) {
     .cats {

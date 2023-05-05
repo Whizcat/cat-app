@@ -1,50 +1,20 @@
 
   
-  h1, h2 {
-    font-family: Impact, serif;
+  body {
     background-color: aqua;
-    color: blue;
   }
-  
-  .item p {
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
+
+  .cat {
+    background-color: palevioletred;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid purple;
+    flex: 1;
   }
-  
-  .flavor, .dessert {
-    text-align: left;
-    width: 75%;
-  }
-  
-  .price {
-    text-align: right;
-    width: 25%;
-  }
-  
-  /* FOOTER */
-  
-  footer {
-    font-size: 14px;
-  }
-  
-  .address {
-    margin-bottom: 5px;
-  }
-  
-  a {
-    color: black;
-  }
-  
-  a:visited {
-    color: black;
-  }
-  
-  a:hover {
-    color: brown;
-  }
-  
-  a:active {
-    color: brown;
-  }
+
+  @media (min-width : 960px) {
+    .cats {
+        display: flex;
+    }
+}

@@ -11,9 +11,10 @@
     border-radius: 1em;
     border: 1px solid purple;
     flex: 1;
+    image-si
   }
 
-  @media (min-width : 960px) {
+  @media (min-width : 500px) {
     .cats {
         display: flex;
     }

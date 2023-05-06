@@ -1,22 +1,31 @@
 body {
-  body {
-    background-color: aqua;
+  background-color: aqua;
+    font-family: Verdana;
+    text-align: center;
+  
   }
+  
 
-  .cats {
-    background-color: palevioletred;
-    margin: 10px;
-    width: calc(25% - 20px);
-    padding: 1em;
-    border-radius: 1em;
-    border: 1px solid purple;
-    flex: 1;
-    
-      }
+.cats {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-     @media screen and (max-width: 768px) {
-    .cats {
-      width: 100%;
-     display: flex;
-    }
+.cats {
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin: 10px;
+  width: calc(25% - 20px);
+  transition: background-color 0.3s ease;
+}
+
+.cats {
+  background-color: lightgray;
+}
+
+.img {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 75%;
 }

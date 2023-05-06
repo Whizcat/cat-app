@@ -3,12 +3,12 @@ body {
   }
   
   
-  .pizza-container {
+  .cat-container {
     display: flex;
     flex-wrap: wrap;
   }
   
-  .pizza-item {
+  .cat-item {
     box-sizing: border-box;
     border: 1px solid black;
     margin: 10px;
@@ -16,7 +16,7 @@ body {
     transition: background-color 0.3s ease;
   }
   
-  .pizza-item:hover {
+  .cat-item:hover {
     background-color: purple;
   }
   
@@ -46,7 +46,7 @@ body {
     text-align: center;
   }
   
-  .pizza-item {
+  .cat-item {
     border: 1px solid black;
     box-sizing: border-box;
     width: 100%;
@@ -55,16 +55,16 @@ body {
     position: relative;
   }
   
-  .pizza-item:hover {
+  .cat-item:hover {
     background-color: lightgray;
   }
   
-  .pizza-item img {
+  .cat-item img {
     display: block;
     max-width: 100%;
   }
   
-  .pizza-item p {
+  .cat-item p {
     margin-top: 0;
   }
   
@@ -81,24 +81,24 @@ body {
   
   /* styles for screens smaller than 768px */
   @media (max-width: 768px) {
-    .pizza-item {
+    .cat-item {
       max-width: 100%;
       display: flex;
     }
   
-    .pizza-item img {
+    .cat-item img {
       width: 100%;
       height: auto;
     }
   
-    .pizza-item h2,
-    .pizza-item p {
+    .cat-item h2,
+    .cat-item p {
       text-align: center;
     }
   }
   
   /* Default styles for .pizza-item */
-  .pizza-item {
+  .cat-item {
     border: 1px solid black;
     padding: 10px;
     display: inline-block;
@@ -108,14 +108,14 @@ body {
   
   /* Styles for .pizza-item on small screens */
   @media screen and (max-width: 768px) {
-    .pizza-item {
+    .cat-item {
       width: 100%; /* Full width */
       margin: 0; /* Remove margin */
       display: none;
       visibility: hidden;
     }
   
-    .pizza-item:first-child {
+    .cat-item:first-child {
       display: block;
       visibility: visible;
     }

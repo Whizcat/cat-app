@@ -1,122 +1,22 @@
 body {
-  background-color: aqua
+  body {
+    background-color: aqua;
   }
-  
-  
-  .cat-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .cat-item {
-    box-sizing: border-box;
-    border: 1px solid black;
+
+  .cats {
+    background-color: palevioletred;
     margin: 10px;
     width: calc(25% - 20px);
-    transition: background-color 0.3s ease;
-  }
-  
-  .cat-item:hover {
-    background-color: purple;
-  }
-  
-  .img-container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-bottom: 75%;
-  }
-  
-  .img-container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .cat-item {
-    border: 1px solid black;
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 400px;
-    margin: 10px;
-    position: relative;
-  }
-  
-  .cat-item:hover {
-    background-color: lightgray;
-  }
-  
-  .cat-item img {
-    display: block;
-    max-width: 100%;
-  }
-  
-  .cat-item p {
-    margin-top: 0;
-  }
-  
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    text-align: center;
-  }
-  
-  
-  /* styles for screens smaller than 768px */
-  @media (max-width: 768px) {
-    .cat-item {
-      max-width: 100%;
-      display: flex;
-    }
-  
-    .cat-item img {
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid purple;
+    flex: 1;
+    
+      }
+
+     @media screen and (max-width: 768px) {
+    .cats {
       width: 100%;
-      height: auto;
+     display: flex;
     }
-  
-    .cat-item h2,
-    .cat-item p {
-      text-align: center;
-    }
-  }
-  
-  /* Default styles for .pizza-item */
-  .cat-item {
-    border: 1px solid black;
-    padding: 10px;
-    display: inline-block;
-    width: calc(25% - 20px); /* 4 items in a row */
-    margin: 10px;
-  }
-  
-  /* Styles for .pizza-item on small screens */
-  @media screen and (max-width: 768px) {
-    .cat-item {
-      width: 100%; /* Full width */
-      margin: 0; /* Remove margin */
-      display: none;
-      visibility: hidden;
-    }
-  
-    .cat-item:first-child {
-      display: block;
-      visibility: visible;
-    }
-  }
+}

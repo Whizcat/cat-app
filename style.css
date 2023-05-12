@@ -29,8 +29,8 @@ body {
   overflow: hidden;
   width: 60%;
   padding-bottom: 75%;
-  display: flex;
-  flex-wrap: wrap;
+  display: flexbox;
+  
 }
 
 

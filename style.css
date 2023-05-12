@@ -8,19 +8,19 @@ body {
 .cats {
   display: flex;
   flex-wrap: wrap;
-  background-color: blueviolet;
+  
 }
 
 .cats {
-  background-color: purple
+  background-color: purple;
   
 }
 
 .img {
   position: relative;
   overflow: hidden;
-  width: 30%;
-  padding-bottom: 40%;
+  width: 70;
+  padding-bottom: 475%;
   
 }
 

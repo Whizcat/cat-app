@@ -5,18 +5,13 @@ body {
   
   }
   
-
 .cats {
   display: flex;
   flex-wrap: wrap;
   background-color: blueviolet;
 }
 
-
-
 .cats {
-  width: 30%;
-  padding-bottom: 40%;;
   background-color: purple
   
 }

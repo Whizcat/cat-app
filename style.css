@@ -15,7 +15,10 @@ body {
 
 
 .cats {
+  width: 30%;
+  padding-bottom: 40%;;
   background-color: purple
+  
 }
 
 .img {
@@ -23,7 +26,6 @@ body {
   overflow: hidden;
   width: 30%;
   padding-bottom: 40%;
-  
   
 }
 

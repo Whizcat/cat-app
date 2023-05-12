@@ -15,14 +15,14 @@ body {
 
 
 .cats {
-  background-color: lightgray;
+  background-color: purple
 }
 
 .img {
   position: relative;
   overflow: hidden;
-  width: 60%;
-  padding-bottom: 75%;
+  width: 50%;
+  padding-bottom: 60%;
   
   
 }
